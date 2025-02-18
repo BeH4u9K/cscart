@@ -1,0 +1,29 @@
+/* Пример стилей для темы Simple Yellow */
+body {
+    background-color: #3bff58; /* Желтый фон */
+    color: #333; /* Темный текст */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #0D47A1; /* Синий заголовок */
+}
+
+a {
+    color: #0D47A1; /* Синие ссылки */
+}
+
+a:hover {
+    color: #1976D2; /* Синий при наведении */
+}
+
+.ty-btn {
+    background-color: #0D47A1; /* Синие кнопки */
+    color: white;
+}
+
+.ty-btn:hover {
+    background-color: #1976D2; /* Синий при наведении */
+    color: white;
+}
+
+/* Добавьте другие стили, которые были в старом файле */
