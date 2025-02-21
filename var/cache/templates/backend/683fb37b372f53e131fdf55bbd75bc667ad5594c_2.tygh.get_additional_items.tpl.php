@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-02-17 19:31:54
+/* Smarty version 4.3.0, created on 2025-02-21 11:06:47
   from 'C:\OSPanel\domains\csCart\design\backend\templates\components\menu\get_additional_items.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67b3647ad8dcb0_69860872',
+  'unifunc' => 'content_67b83417669b41_39187854',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_67b3647ad8dcb0_69860872 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67b83417669b41_39187854 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('quick_menu','edit','quick_menu'));
 if ((defined('ACCOUNT_TYPE') ? constant('ACCOUNT_TYPE') : null) !== "vendor") {?>
         <?php $_smarty_tpl->_assignInScope('enable_quick_menu', (($tmp = $_smarty_tpl->tpl_vars['config']->value['enable_quick_menu'] ?? null)===null||$tmp==='' ? false ?? null : $tmp));?>

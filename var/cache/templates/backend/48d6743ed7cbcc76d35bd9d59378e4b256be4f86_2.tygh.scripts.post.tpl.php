@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-02-17 19:31:57
+/* Smarty version 4.3.0, created on 2025-02-21 11:06:53
   from 'C:\OSPanel\domains\csCart\design\backend\templates\addons\help_center\hooks\index\scripts.post.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67b3647d66e957_51801196',
+  'unifunc' => 'content_67b8341d618818_77412380',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_67b3647d66e957_51801196 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67b8341d618818_77412380 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\OSPanel\\domains\\csCart\\app\\functions\\smarty_plugins\\function.script.php','function'=>'smarty_function_script',),));
 if ((defined('ACCOUNT_TYPE') ? constant('ACCOUNT_TYPE') : null) === "admin") {?>
     <?php echo smarty_function_script(array('src'=>"js/addons/help_center/help_center_background.js"),$_smarty_tpl);?>

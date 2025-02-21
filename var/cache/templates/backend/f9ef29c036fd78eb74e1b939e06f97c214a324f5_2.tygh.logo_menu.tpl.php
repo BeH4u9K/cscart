@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-02-17 19:31:52
+/* Smarty version 4.3.0, created on 2025-02-21 11:06:43
   from 'C:\OSPanel\domains\csCart\design\backend\templates\components\menu\logo_menu.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67b36478d5d6a3_18734153',
+  'unifunc' => 'content_67b8341384e994_16474033',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_67b36478d5d6a3_18734153 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67b8341384e994_16474033 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\OSPanel\\domains\\csCart\\app\\functions\\smarty_plugins\\block.hook.php','function'=>'smarty_block_hook',),1=>array('file'=>'C:\\OSPanel\\domains\\csCart\\app\\functions\\smarty_plugins\\modifier.enum.php','function'=>'smarty_modifier_enum',),));
 \Tygh\Languages\Helper::preloadLangVars(array('admin.go_to_the_homepage'));
 $_smarty_tpl->_assignInScope('logo_path_light', "cart_logo.svg");

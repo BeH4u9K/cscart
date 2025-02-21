@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-02-17 19:31:44
+/* Smarty version 4.3.0, created on 2025-02-21 11:06:33
   from 'C:\OSPanel\domains\csCart\design\backend\templates\addons\seo\hooks\index\styles.post.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67b364702702a5_92461909',
+  'unifunc' => 'content_67b83409d90689_95454302',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_67b364702702a5_92461909 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67b83409d90689_95454302 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\OSPanel\\domains\\csCart\\app\\functions\\smarty_plugins\\function.style.php','function'=>'smarty_function_style',),));
 echo smarty_function_style(array('src'=>"addons/seo/styles.less"),$_smarty_tpl);
 }

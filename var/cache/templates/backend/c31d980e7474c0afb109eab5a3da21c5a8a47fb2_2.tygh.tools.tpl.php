@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-02-17 19:31:52
+/* Smarty version 4.3.0, created on 2025-02-21 11:11:08
   from 'C:\OSPanel\domains\csCart\design\backend\templates\common\tools.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67b36478770879_17728952',
+  'unifunc' => 'content_67b8351ce5e062_74061030',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_67b36478770879_17728952 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67b8351ce5e062_74061030 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\OSPanel\\domains\\csCart\\app\\functions\\smarty_plugins\\function.include_ext.php','function'=>'smarty_function_include_ext',),));
 if ($_smarty_tpl->tpl_vars['skip_check_permissions']->value || fn_check_html_view_permissions($_smarty_tpl->tpl_vars['tools_list']->value)) {
 $_smarty_tpl->_assignInScope('icon_first_tools', (($tmp = $_smarty_tpl->tpl_vars['icon_first_tools']->value ?? null)===null||$tmp==='' ? false ?? null : $tmp));

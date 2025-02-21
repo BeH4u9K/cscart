@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-02-17 19:31:52
+/* Smarty version 4.3.0, created on 2025-02-21 11:06:42
   from 'C:\OSPanel\domains\csCart\design\backend\templates\components\menu\actions_menu.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67b364785e38c9_50840463',
+  'unifunc' => 'content_67b83412d98114_43131873',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/tools.tpl' => 1,
   ),
 ),false)) {
-function content_67b364785e38c9_50840463 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67b83412d98114_43131873 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\OSPanel\\domains\\csCart\\app\\functions\\smarty_plugins\\modifier.count.php','function'=>'smarty_modifier_count',),1=>array('file'=>'C:\\OSPanel\\domains\\csCart\\app\\functions\\smarty_plugins\\modifier.truncate.php','function'=>'smarty_modifier_truncate',),2=>array('file'=>'C:\\OSPanel\\domains\\csCart\\app\\functions\\smarty_plugins\\modifier.trim.php','function'=>'smarty_modifier_trim',),));
 \Tygh\Languages\Helper::preloadLangVars(array('actions.more'));
 if ($_smarty_tpl->tpl_vars['items']->value) {
@@ -47,7 +47,7 @@ $_smarty_tpl->tpl_vars['item']->do_else = true;
 if ($_from !== null) foreach ($_from as $_smarty_tpl->tpl_vars['item_key']->value => $_smarty_tpl->tpl_vars['item']->value) {
 $_smarty_tpl->tpl_vars['item']->do_else = false;
 $_smarty_tpl->tpl_vars['item']->iteration++;
-$__foreach_item_28_saved = $_smarty_tpl->tpl_vars['item'];
+$__foreach_item_11_saved = $_smarty_tpl->tpl_vars['item'];
 $_smarty_tpl->_assignInScope('item_text', (($tmp = $_smarty_tpl->tpl_vars['item']->value['text'] ?? null)===null||$tmp==='' ? $_smarty_tpl->__($_smarty_tpl->tpl_vars['item_key']->value) ?? null : $tmp));
 $_smarty_tpl->_assignInScope('item_title', (($tmp = $_smarty_tpl->tpl_vars['item']->value['title'] ?? null)===null||$tmp==='' ? '' ?? null : $tmp));
 $_smarty_tpl->_assignInScope('item_class', "btn actions-menu__btn ".((string)$_smarty_tpl->tpl_vars['item']->value['class'])." ".((string)$_smarty_tpl->tpl_vars['item']->value['meta']));
@@ -84,7 +84,7 @@ if ($_smarty_tpl->tpl_vars['item']->value['wrapper_class']) {?><span class="shif
 "><?php }
 $_smarty_tpl->smarty->ext->_tplFunction->callTemplateFunction($_smarty_tpl, 'btn', array('type'=>(($tmp = $_smarty_tpl->tpl_vars['item']->value['type'] ?? null)===null||$tmp==='' ? "text" ?? null : $tmp),'href'=>(($tmp = $_smarty_tpl->tpl_vars['item']->value['href'] ?? null)===null||$tmp==='' ? '' ?? null : $tmp),'text'=>$_smarty_tpl->tpl_vars['item_text_html']->value,'title'=>$_smarty_tpl->tpl_vars['item_title']->value,'id'=>($_smarty_tpl->tpl_vars['item']->value['id'] ? ((string)$_smarty_tpl->tpl_vars['item']->value['id'])."_primary" : ''),'class'=>$_smarty_tpl->tpl_vars['item_class']->value,'dispatch'=>(($tmp = $_smarty_tpl->tpl_vars['item']->value['dispatch'] ?? null)===null||$tmp==='' ? '' ?? null : $tmp),'form'=>(($tmp = $_smarty_tpl->tpl_vars['item']->value['form'] ?? null)===null||$tmp==='' ? '' ?? null : $tmp),'method'=>(($tmp = $_smarty_tpl->tpl_vars['item']->value['method'] ?? null)===null||$tmp==='' ? '' ?? null : $tmp),'target'=>(($tmp = $_smarty_tpl->tpl_vars['item']->value['target'] ?? null)===null||$tmp==='' ? '' ?? null : $tmp),'target_id'=>(($tmp = $_smarty_tpl->tpl_vars['item']->value['target_id'] ?? null)===null||$tmp==='' ? '' ?? null : $tmp),'process'=>(($tmp = $_smarty_tpl->tpl_vars['item']->value['process'] ?? null)===null||$tmp==='' ? '' ?? null : $tmp),'onclick'=>(($tmp = $_smarty_tpl->tpl_vars['item']->value['onclick'] ?? null)===null||$tmp==='' ? '' ?? null : $tmp),'raw'=>true,'icon'=>$_smarty_tpl->tpl_vars['item_icon']->value,'icon_first'=>true,'data'=>(($tmp = $_smarty_tpl->tpl_vars['item']->value['data'] ?? null)===null||$tmp==='' ? array() ?? null : $tmp)), true);
 if ($_smarty_tpl->tpl_vars['item']->value['wrapper_class']) {?></span><?php }
-$_smarty_tpl->tpl_vars['item'] = $__foreach_item_28_saved;
+$_smarty_tpl->tpl_vars['item'] = $__foreach_item_11_saved;
 }
 $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);
 $_smarty_tpl->smarty->ext->_capture->open($_smarty_tpl, "tools_list", null, null);
@@ -95,7 +95,7 @@ $_smarty_tpl->tpl_vars['item']->do_else = true;
 if ($_from !== null) foreach ($_from as $_smarty_tpl->tpl_vars['item_key']->value => $_smarty_tpl->tpl_vars['item']->value) {
 $_smarty_tpl->tpl_vars['item']->do_else = false;
 $_smarty_tpl->tpl_vars['item']->iteration++;
-$__foreach_item_29_saved = $_smarty_tpl->tpl_vars['item'];
+$__foreach_item_12_saved = $_smarty_tpl->tpl_vars['item'];
 $_smarty_tpl->_assignInScope('item_wrapper_class', $_smarty_tpl->tpl_vars['item']->value['wrapper_class']);
 if ($_smarty_tpl->tpl_vars['item']->iteration > $_smarty_tpl->tpl_vars['actions_count_threshold_xxxl']->value) {
 } elseif ($_smarty_tpl->tpl_vars['item']->iteration > $_smarty_tpl->tpl_vars['actions_count_threshold_xxl']->value) {
@@ -117,7 +117,7 @@ $_smarty_tpl->_assignInScope('item_icon', ((string)$_smarty_tpl->tpl_vars['icon_
 }?><li class="actions-menu__dropdown-item-wrapper <?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['item_wrapper_class']->value, ENT_QUOTES, 'UTF-8');?>
 "><?php $_smarty_tpl->smarty->ext->_tplFunction->callTemplateFunction($_smarty_tpl, 'btn', array('type'=>(($tmp = $_smarty_tpl->tpl_vars['item']->value['type'] ?? null)===null||$tmp==='' ? "text" ?? null : $tmp),'href'=>(($tmp = $_smarty_tpl->tpl_vars['item']->value['href'] ?? null)===null||$tmp==='' ? '' ?? null : $tmp),'text'=>$_smarty_tpl->tpl_vars['item_text_html']->value,'title'=>(($tmp = $_smarty_tpl->tpl_vars['item']->value['title'] ?? null)===null||$tmp==='' ? '' ?? null : $tmp),'id'=>(($tmp = $_smarty_tpl->tpl_vars['item']->value['id'] ?? null)===null||$tmp==='' ? '' ?? null : $tmp),'class'=>"actions-menu__dropdown-item ".((string)$_smarty_tpl->tpl_vars['item']->value['class'])." ".((string)$_smarty_tpl->tpl_vars['item']->value['meta']),'dispatch'=>(($tmp = $_smarty_tpl->tpl_vars['item']->value['dispatch'] ?? null)===null||$tmp==='' ? '' ?? null : $tmp),'form'=>(($tmp = $_smarty_tpl->tpl_vars['item']->value['form'] ?? null)===null||$tmp==='' ? '' ?? null : $tmp),'method'=>(($tmp = $_smarty_tpl->tpl_vars['item']->value['method'] ?? null)===null||$tmp==='' ? '' ?? null : $tmp),'target'=>(($tmp = $_smarty_tpl->tpl_vars['item']->value['target'] ?? null)===null||$tmp==='' ? '' ?? null : $tmp),'target_id'=>(($tmp = $_smarty_tpl->tpl_vars['item']->value['target_id'] ?? null)===null||$tmp==='' ? '' ?? null : $tmp),'process'=>(($tmp = $_smarty_tpl->tpl_vars['item']->value['process'] ?? null)===null||$tmp==='' ? '' ?? null : $tmp),'onclick'=>(($tmp = $_smarty_tpl->tpl_vars['item']->value['onclick'] ?? null)===null||$tmp==='' ? '' ?? null : $tmp),'raw'=>true,'icon'=>$_smarty_tpl->tpl_vars['item_icon']->value,'icon_first'=>true,'data'=>(($tmp = $_smarty_tpl->tpl_vars['item']->value['data'] ?? null)===null||$tmp==='' ? array() ?? null : $tmp)), true);?>
 </li><?php
-$_smarty_tpl->tpl_vars['item'] = $__foreach_item_29_saved;
+$_smarty_tpl->tpl_vars['item'] = $__foreach_item_12_saved;
 }
 $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);
 $_smarty_tpl->smarty->ext->_capture->close($_smarty_tpl);

@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-02-17 20:00:30
+/* Smarty version 4.3.0, created on 2025-02-21 11:01:32
   from 'C:\OSPanel\domains\csCart\design\backend\templates\addons\onboarding_guide\views\onboarding_guide\onboarding_guide.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67b36b2eecdef8_75333973',
+  'unifunc' => 'content_67b832dcec2e89_90892399',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:addons/onboarding_guide/components/step.tpl' => 1,
   ),
 ),false)) {
-function content_67b36b2eecdef8_75333973 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67b832dcec2e89_90892399 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\OSPanel\\domains\\csCart\\app\\functions\\smarty_plugins\\function.script.php','function'=>'smarty_function_script',),1=>array('file'=>'C:\\OSPanel\\domains\\csCart\\app\\functions\\smarty_plugins\\block.inline_script.php','function'=>'smarty_block_inline_script',),));
 \Tygh\Languages\Helper::preloadLangVars(array('onboarding_guide.demo_guide_title','onboarding_guide.demo_guide_description','onboarding_guide.sb_guide_title','onboarding_guide.guide_title','onboarding_guide.completed_steps_progress','onboarding_guide.step_complete','onboarding_guide.step_close'));
 if ($_smarty_tpl->tpl_vars['onboarding_guide_steps']->value) {?>

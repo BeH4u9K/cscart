@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-02-17 20:00:33
+/* Smarty version 4.3.0, created on 2025-02-21 11:01:36
   from 'C:\OSPanel\domains\csCart\design\backend\templates\addons\onboarding_guide\steps\manage_product_catalog.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67b36b3173b924_21070065',
+  'unifunc' => 'content_67b832e011a1f7_03878787',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_67b36b3173b924_21070065 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67b832e011a1f7_03878787 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('onboarding_guide.sb_manage_products_description','onboarding_guide.manage_products_description','onboarding_guide.add_one_product','onboarding_guide.import_csv_or_xml','onboarding_guide.view_product_page_description','onboarding_guide.premoderation','onboarding_guide.view_product_page'));
 ?>
 <div class="onboarding_content_margin--bottom">
@@ -41,8 +41,8 @@ function content_67b36b3173b924_21070065 (Smarty_Internal_Template $_smarty_tpl)
  ↗</a>
     <a href="<?php ob_start();
 echo htmlspecialchars((string) urlencode("import_presets.add&object_type=products"), ENT_QUOTES, 'UTF-8');
-$_prefixVariable3=ob_get_clean();
-echo htmlspecialchars((string) fn_url("onboarding_guide.open_vendor_panel?redirect=".$_prefixVariable3), ENT_QUOTES, 'UTF-8');?>
+$_prefixVariable5=ob_get_clean();
+echo htmlspecialchars((string) fn_url("onboarding_guide.open_vendor_panel?redirect=".$_prefixVariable5), ENT_QUOTES, 'UTF-8');?>
 " class="btn" data-og-action="edit_structure" target="_blank"><?php echo $_smarty_tpl->__("onboarding_guide.import_csv_or_xml");?>
  ↗</a>
 </div>

@@ -1,0 +1,6 @@
+body {
+    background-image: url('/design/themes/sacura_theme/media/Images/sakura.jpg'); /* Фоновое изображение */
+    background-size: cover; /* Заполнение фона */
+    font-family: Arial, sans-serif;
+    color: #FFFFFF; /* Белый текст по умолчанию */
+}

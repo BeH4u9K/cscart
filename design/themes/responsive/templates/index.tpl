@@ -28,13 +28,7 @@
     A block represents a certain content type (e.g. products)
     and uses a certain template to display it (e.g. list with thumbnails).
 *}
-{$pb_is_bottom_panel_open = (
-        $auth.user_type === "UserTypes::ADMIN"|enum
-        || $auth.user_type === "UserTypes::VENDOR"|enum
-        || "THEMES_PANEL"|defined
-    )
-    && $smarty.cookies.pb_is_bottom_panel_open|default:"1"
-}
+
 {$is_theme_editor_open = $runtime.customization_mode.theme_editor}
 <!DOCTYPE html>
 <html {hook name="index:html_tag"}{/hook}

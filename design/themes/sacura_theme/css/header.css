@@ -1,0 +1,24 @@
+header {
+    background-color: rgba(255, 182, 193, 0.8);
+    padding: 20px;
+    text-align: center;
+    
+}
+header h1 {
+    margin: 0;
+    color: #FFFFFF;
+}
+nav {
+    margin-top: 10px;
+}
+.nav-button {
+    background-color: #FF69B4;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 0 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+}

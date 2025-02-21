@@ -1,0 +1,9 @@
+{
+	"default_style":"test",
+	"default":{
+		"test":true
+	},
+	"colors": {
+		"test": "#EFEFEF"
+	}
+}

@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-02-17 19:31:53
+/* Smarty version 4.3.0, created on 2025-02-21 11:06:44
   from 'C:\OSPanel\domains\csCart\design\backend\templates\addons\help_center\templates\help_center_nav_item.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67b36479867cc5_31401776',
+  'unifunc' => 'content_67b83414a959e8_31232202',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_67b36479867cc5_31401776 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67b83414a959e8_31232202 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
     <?php echo '<script'; ?>
  type="text/template" data-ca-help-center="navItem" data-no-defer="true" data-no-execute="§"

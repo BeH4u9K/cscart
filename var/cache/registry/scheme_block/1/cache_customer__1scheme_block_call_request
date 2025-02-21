@@ -1,0 +1,1 @@
+a:2:{s:4:"data";a:6:{s:7:"content";a:1:{s:12:"phone_number";a:2:{s:4:"type";s:8:"function";s:8:"function";a:1:{i:0;s:39:"fn_call_requests_blocks_get_split_phone";}}}s:9:"templates";a:0:{}s:8:"wrappers";s:15:"blocks/wrappers";s:5:"cache";a:1:{s:16:"request_handlers";a:1:{i:0;s:12:"%COMPANY_ID%";}}s:4:"type";s:12:"call_request";s:13:"is_manageable";b:1;}s:6:"expiry";i:0;}

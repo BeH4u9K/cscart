@@ -1,0 +1,10 @@
+{
+    "default_style": "sacura_theme",
+    "default": {
+        "sacura_theme": true
+    },
+    "colors": {
+    
+        "sacura_theme": "#18191A"
+    }
+}

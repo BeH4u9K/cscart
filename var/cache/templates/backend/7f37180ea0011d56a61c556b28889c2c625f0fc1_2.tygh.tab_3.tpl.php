@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-02-17 20:00:33
+/* Smarty version 4.3.0, created on 2025-02-21 11:01:35
   from 'C:\OSPanel\domains\csCart\design\backend\templates\addons\onboarding_guide\steps\personalize_marketplace\tabs\tab_3.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67b36b312b56b8_55056859',
+  'unifunc' => 'content_67b832df8f0187_51660007',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:views/email_templates/preview.tpl' => 1,
   ),
 ),false)) {
-function content_67b36b312b56b8_55056859 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67b832df8f0187_51660007 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\OSPanel\\domains\\csCart\\app\\functions\\smarty_plugins\\function.include_ext.php','function'=>'smarty_function_include_ext',),));
 \Tygh\Languages\Helper::preloadLangVars(array('onboarding_guide.set_default_currency','onboarding_guide.manage_currencies','onboarding_guide.set_default_languages','onboarding_guide.manage_languages','onboarding_guide.sb_preview_an_email_description','onboarding_guide.preview_an_email_description','onboarding_guide.preview_an_email','onboarding_guide.back'));
 ?>

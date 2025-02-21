@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-02-17 20:00:30
+/* Smarty version 4.3.0, created on 2025-02-21 11:06:58
   from 'C:\OSPanel\domains\csCart\design\backend\templates\addons\onboarding_guide\hooks\index\simple_dashboard_content.pre.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67b36b2edc0082_55166110',
+  'unifunc' => 'content_67b834227ea4b8_66774012',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:addons/onboarding_guide/views/onboarding_guide/onboarding_guide.tpl' => 1,
   ),
 ),false)) {
-function content_67b36b2edc0082_55166110 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67b834227ea4b8_66774012 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_subTemplateRender("tygh:addons/onboarding_guide/views/onboarding_guide/onboarding_guide.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
 }
 }

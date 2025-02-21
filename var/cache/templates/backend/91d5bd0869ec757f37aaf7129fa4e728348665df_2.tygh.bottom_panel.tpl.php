@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-02-17 19:31:45
+/* Smarty version 4.3.0, created on 2025-02-21 11:06:35
   from 'C:\OSPanel\domains\csCart\design\backend\templates\components\bottom_panel\bottom_panel.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67b364714b9857_32676313',
+  'unifunc' => 'content_67b8340b7db179_32131709',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -28,7 +28,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'backend:components/bottom_panel/icons/bp-close.svg' => 1,
   ),
 ),false)) {
-function content_67b364714b9857_32676313 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67b8340b7db179_32131709 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\OSPanel\\domains\\csCart\\app\\functions\\smarty_plugins\\block.hook.php','function'=>'smarty_block_hook',),1=>array('file'=>'C:\\OSPanel\\domains\\csCart\\app\\functions\\smarty_plugins\\modifier.enum.php','function'=>'smarty_modifier_enum',),2=>array('file'=>'C:\\OSPanel\\domains\\csCart\\app\\functions\\smarty_plugins\\modifier.trim.php','function'=>'smarty_modifier_trim',),3=>array('file'=>'C:\\OSPanel\\domains\\csCart\\app\\lib\\vendor\\smarty\\smarty\\libs\\plugins\\modifier.replace.php','function'=>'smarty_modifier_replace',),4=>array('file'=>'C:\\OSPanel\\domains\\csCart\\app\\functions\\smarty_plugins\\function.script.php','function'=>'smarty_function_script',),));
 \Tygh\Languages\Helper::preloadLangVars(array('bottom_panel.change_theme','bottom_panel.change_theme','bottom_panel.edit_layout','bottom_panel.edit_layout','bottom_panel.edit_template','bottom_panel.edit_template','bottom_panel.edit_translations','bottom_panel.edit_translations','bottom_panel.edit_menus','bottom_panel.edit_menus','bottom_panel.edit_product_tabs','bottom_panel.edit_product_tabs','bottom_panel.go_to_home_page','bottom_panel.go_to_dashboard','bottom_panel.storefront','bottom_panel.admin_panel','bottom_panel.vendor_panel','bottom_panel.preview_mode','bottom_panel.text_mode','bottom_panel.theme_mode','bottom_panel.theme_mode.not_available','bottom_panel.build_mode','bottom_panel.build_mode.not_available','bottom_panel.settings','bottom_panel.help','bottom_panel.documentation','bottom_panel.community_forums','bottom_panel.video_tutorials','bottom_panel.faq','bottom_panel.customer_help_desk','bottom_panel.hire_a_developers','bottom_panel.hide_bottom_admin_panel','bottom_panel.show_bottom_admin_panel'));
 $_smarty_tpl->_assignInScope('bottom_panel_open_logo', $_smarty_tpl->tpl_vars['logo']->value);
@@ -218,8 +218,8 @@ if ($_smarty_tpl->tpl_vars['storefront_id']->value) {
 echo "&storefront_id=";
 echo (string)$_smarty_tpl->tpl_vars['storefront_id']->value;
 }
-$_prefixVariable12=ob_get_clean();
-echo htmlspecialchars((string) fn_url("bottom_panel.redirect?url=".((string)(urlencode($_smarty_tpl->tpl_vars['config']->value['current_url'])))."&area=".((string)(defined('AREA') ? constant('AREA') : null))."&to_area=C".$_prefixVariable12,$_smarty_tpl->tpl_vars['redirect_area']->value), ENT_QUOTES, 'UTF-8');?>
+$_prefixVariable10=ob_get_clean();
+echo htmlspecialchars((string) fn_url("bottom_panel.redirect?url=".((string)(urlencode($_smarty_tpl->tpl_vars['config']->value['current_url'])))."&area=".((string)(defined('AREA') ? constant('AREA') : null))."&to_area=C".$_prefixVariable10,$_smarty_tpl->tpl_vars['redirect_area']->value), ENT_QUOTES, 'UTF-8');?>
 "
                 class="bp-nav__item cm-no-ajax
                 <?php if ((defined('ACCOUNT_TYPE') ? constant('ACCOUNT_TYPE') : null) === "customer") {?>
@@ -270,20 +270,20 @@ ob_start();?>
                         <?php if ($_smarty_tpl->tpl_vars['active_mode']->value === "text") {?>
                             href="<?php ob_start();
 echo htmlspecialchars((string) urlencode($_smarty_tpl->tpl_vars['config']->value['current_url']), ENT_QUOTES, 'UTF-8');
-$_prefixVariable13=ob_get_clean();
-echo htmlspecialchars((string) fn_url("customization.disable_mode?type=live_editor&return_url=".$_prefixVariable13), ENT_QUOTES, 'UTF-8');?>
+$_prefixVariable11=ob_get_clean();
+echo htmlspecialchars((string) fn_url("customization.disable_mode?type=live_editor&return_url=".$_prefixVariable11), ENT_QUOTES, 'UTF-8');?>
 "
                         <?php } elseif ($_smarty_tpl->tpl_vars['active_mode']->value === "theme") {?>
                             href="<?php ob_start();
 echo htmlspecialchars((string) urlencode($_smarty_tpl->tpl_vars['config']->value['current_url']), ENT_QUOTES, 'UTF-8');
-$_prefixVariable14=ob_get_clean();
-echo htmlspecialchars((string) fn_url("customization.disable_mode?type=theme_editor&return_url=".$_prefixVariable14), ENT_QUOTES, 'UTF-8');?>
+$_prefixVariable12=ob_get_clean();
+echo htmlspecialchars((string) fn_url("customization.disable_mode?type=theme_editor&return_url=".$_prefixVariable12), ENT_QUOTES, 'UTF-8');?>
 "
                         <?php } elseif ($_smarty_tpl->tpl_vars['active_mode']->value === "build") {?>
                             href="<?php ob_start();
 echo htmlspecialchars((string) urlencode($_smarty_tpl->tpl_vars['config']->value['current_url']), ENT_QUOTES, 'UTF-8');
-$_prefixVariable15=ob_get_clean();
-echo htmlspecialchars((string) fn_url("customization.disable_mode?type=block_manager&return_url=".$_prefixVariable15), ENT_QUOTES, 'UTF-8');?>
+$_prefixVariable13=ob_get_clean();
+echo htmlspecialchars((string) fn_url("customization.disable_mode?type=block_manager&return_url=".$_prefixVariable13), ENT_QUOTES, 'UTF-8');?>
 "
                         <?php } else { ?>
                             href="<?php echo htmlspecialchars((string) fn_url(''), ENT_QUOTES, 'UTF-8');?>
@@ -302,8 +302,8 @@ echo htmlspecialchars((string) fn_url("customization.disable_mode?type=block_man
                     <?php if (fn_check_permissions("customization","update_mode","admin",'',array("type"=>"live_editor"),(defined('AREA') ? constant('AREA') : null),$_smarty_tpl->tpl_vars['auth']->value['user_id']) && $_smarty_tpl->tpl_vars['auth']->value['user_type'] === smarty_modifier_enum("UserTypes::ADMIN") || ($_smarty_tpl->tpl_vars['is_demo_mode']->value && (defined('AREA') ? constant('AREA') : null) === smarty_modifier_enum("SiteArea::STOREFRONT"))) {?>
                         <a href="<?php ob_start();
 echo htmlspecialchars((string) urlencode($_smarty_tpl->tpl_vars['c_url']->value), ENT_QUOTES, 'UTF-8');
-$_prefixVariable16=ob_get_clean();
-echo htmlspecialchars((string) fn_url("customization.update_mode?type=live_editor&status=enable&return_url=".$_prefixVariable16), ENT_QUOTES, 'UTF-8');?>
+$_prefixVariable14=ob_get_clean();
+echo htmlspecialchars((string) fn_url("customization.update_mode?type=live_editor&status=enable&return_url=".$_prefixVariable14), ENT_QUOTES, 'UTF-8');?>
 "
                             id="settings_live_editor"
                             class="cm-no-ajax bp-modes__item bp-modes__item--text
@@ -320,8 +320,8 @@ echo htmlspecialchars((string) fn_url("customization.update_mode?type=live_edito
                         <a href="<?php if (fn_is_theme_editor_available_for_user($_smarty_tpl->tpl_vars['auth']->value) || $_smarty_tpl->tpl_vars['is_demo_mode']->value) {
 ob_start();
 echo htmlspecialchars((string) urlencode($_smarty_tpl->tpl_vars['c_url']->value), ENT_QUOTES, 'UTF-8');
-$_prefixVariable17=ob_get_clean();
-echo htmlspecialchars((string) fn_url("customization.update_mode?type=theme_editor&status=enable&return_url=".$_prefixVariable17), ENT_QUOTES, 'UTF-8');
+$_prefixVariable15=ob_get_clean();
+echo htmlspecialchars((string) fn_url("customization.update_mode?type=theme_editor&status=enable&return_url=".$_prefixVariable15), ENT_QUOTES, 'UTF-8');
 } else { ?>#<?php }?>"
                             id="settings_theme_editor"
                             class="cm-no-ajax bp-modes__item bp-modes__item--theme
@@ -347,8 +347,8 @@ echo htmlspecialchars((string) fn_url("customization.update_mode?type=theme_edit
                         <a href="<?php if ($_smarty_tpl->tpl_vars['location_data']->value['is_frontend_editing_allowed'] || (defined('ACCOUNT_TYPE') ? constant('ACCOUNT_TYPE') : null) === "vendor") {
 ob_start();
 echo htmlspecialchars((string) urlencode($_smarty_tpl->tpl_vars['c_url']->value), ENT_QUOTES, 'UTF-8');
-$_prefixVariable18=ob_get_clean();
-echo htmlspecialchars((string) fn_url("customization.update_mode?type=block_manager&status=enable&return_url=".$_prefixVariable18), ENT_QUOTES, 'UTF-8');
+$_prefixVariable16=ob_get_clean();
+echo htmlspecialchars((string) fn_url("customization.update_mode?type=block_manager&status=enable&return_url=".$_prefixVariable16), ENT_QUOTES, 'UTF-8');
 } else { ?>#<?php }?>"
                             id="settings_block_manager"
                             class="cm-no-ajax bp-modes__item bp-modes__item--build

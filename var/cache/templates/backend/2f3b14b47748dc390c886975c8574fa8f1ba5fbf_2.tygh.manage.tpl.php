@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.0, created on 2025-02-17 19:31:46
+/* Smarty version 4.3.0, created on 2025-02-21 11:11:06
   from 'C:\OSPanel\domains\csCart\design\backend\templates\views\themes\manage.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_67b36472c06551_61145456',
+  'unifunc' => 'content_67b8351a41bdf6_37240545',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -31,7 +31,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/mainbox.tpl' => 1,
   ),
 ),false)) {
-function content_67b36472c06551_61145456 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67b8351a41bdf6_37240545 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\OSPanel\\domains\\csCart\\app\\functions\\smarty_plugins\\function.script.php','function'=>'smarty_function_script',),1=>array('file'=>'C:\\OSPanel\\domains\\csCart\\app\\functions\\smarty_plugins\\modifier.enum.php','function'=>'smarty_modifier_enum',),2=>array('file'=>'C:\\OSPanel\\domains\\csCart\\app\\functions\\smarty_plugins\\block.hook.php','function'=>'smarty_block_hook',),3=>array('file'=>'C:\\OSPanel\\domains\\csCart\\app\\lib\\vendor\\smarty\\smarty\\libs\\plugins\\modifier.replace.php','function'=>'smarty_modifier_replace',),4=>array('file'=>'C:\\OSPanel\\domains\\csCart\\app\\functions\\smarty_plugins\\function.include_ext.php','function'=>'smarty_function_include_ext',),5=>array('file'=>'C:\\OSPanel\\domains\\csCart\\app\\functions\\smarty_plugins\\modifier.count.php','function'=>'smarty_modifier_count',),6=>array('file'=>'C:\\OSPanel\\domains\\csCart\\app\\functions\\smarty_plugins\\function.split.php','function'=>'smarty_function_split',),7=>array('file'=>'C:\\OSPanel\\domains\\csCart\\app\\functions\\smarty_plugins\\block.inline_script.php','function'=>'smarty_block_inline_script',),));
 \Tygh\Languages\Helper::preloadLangVars(array('settings_overwrite_title','settings_overwrite_text','current_setting_value','new_setting_value','cancel','overwrite_selected_settings','current_theme','general','directory','name','description','theme_styles_and_layouts','layout','theme_editor.style','layout','theme_editor.style','none','theme_no_styles_text','theme_editor','theme_editor_not_supported','theme_editor','edit_layout_on_site','edit_content_on_site','active','cannot_remove_theme_has_dependent_themes','remove_theme','layouts','theme_editor.styles','activate','use_this_style','currently_in_use','currently_in_use','activate','no_themes_available','install','preview','install','no_themes_available','clone_theme','rebuild_cache_automatically','rebuild_cache_automatically_tooltip','theme_information','name','directory','layouts','theme_editor.styles','developer','marketplace','marketplace_find_more','upload_theme','upload_theme','upload_theme','themes'));
 echo smarty_function_script(array('src'=>"js/lib/bootstrap_switch/js/bootstrapSwitch.js"),$_smarty_tpl);?>
